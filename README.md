@@ -1,8 +1,8 @@
 # QureAI_Assignment
 ### Covid-19 Data for is US is located in DATA folder, contains covid-19 deaths by county, covid-19 deaths and cases by state and mobility by county
-
+The database used in this project is PostgreSQL.
 ### 1. Data Modelling: 
-Dimensional model used is defines follows: </br>
+Dimensional model used is defined follows: </br>
 Data is stagged into technical."FF_CovidByCounty", technical."FF_CovidByState" & technical."FF_USMobility" from the files<\br> 
   a. Dimension Tables: </br>
     ->md."Dim_Day": Each row stores information about a perticular calender date (for definition go to SQL/DDL & SQL|DML folder)</br>

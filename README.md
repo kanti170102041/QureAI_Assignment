@@ -28,6 +28,6 @@ Data is stagged into technical."FF_CovidByCounty", technical."FF_CovidByState" &
   
 ### 4. Automated script to send Data to slack:
   find the script in QureAI_Assignment\Slack_Integration for test perposes the schedule time is set to 5 minites.
-  The scripts sends monthly data in an interval of 5 minutes.
-
+  The scripts sends monthly data in an interval of 5 minutes.<br />
+![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Slack_Integration/Slack_data_screenshot.png)
 

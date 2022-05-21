@@ -1,6 +1,6 @@
 create table TECHNICAL."FF_USMobility"(
-state_name VARCHAR(40),
-county_name VARCHAR(40),
+state_name VARCHAR(50),
+county_name VARCHAR(80),
 on_date DATE,
 retail INT,
 grocery_and_pharmacy INT,

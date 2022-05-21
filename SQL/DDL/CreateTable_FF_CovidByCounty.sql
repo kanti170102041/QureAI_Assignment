@@ -1,7 +1,7 @@
 create table Technical."FF_CovidByCounty"(
 id INT,
 county_fips INT,
-county_name VARCHAR(255),
+county_name VARCHAR(80),
 state_name VARCHAR(50),
 state_fips INT,
 On_Date DATE,

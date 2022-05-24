@@ -18,16 +18,19 @@ Data is stagged into technical."FF_CovidByCounty", technical."FF_CovidByState" &
   Please find DDL and DML scripts in the SQL folder.
   running DML scripts in correct order(FF->Dim->Fact->Reporting Fact) will ensure data loads properly.
   
-### 3. Visualization:
-  Grafana Plots: Total Deaths , Total Cases , Deaths in Alabam, Deaths in Arkansas, cases in Alabam, Cases in Arkansas with respect to time<br />
-  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Deaths_vs_cases.png)
-  Grafana Plots: Deaths and Transit Mobility with respect to time<br />
-  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Deaths_vs_Mobility_Grafana.png)
-  Python Plots: Deaths vs Mobility <br />
-  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Deaths_vs_Mobility_python.png)
+### 3. Covid Dashboard & Data Visualization:
+
+  DashBoard for state level data: Selection options availabe for State, From date, To Date. Visualizaation : Heat Map, Death count, Cases Count, Moratality & Trends in   Deaths and cases over time.<br /><br />
+  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Covid_Dashboard.png) <br /><br />
+  Grafana Plots: Total Deaths , Total Cases , Deaths in Alabam, Deaths in Arkansas, cases in Alabam, Cases in Arkansas with respect to time<br /><br />
+  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Deaths_vs_cases.png)<br /><br />
+  Grafana Plots: Deaths and Transit Mobility with respect to time<br /><br />
+  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Deaths_vs_Mobility_Grafana.png)<br /><br />
+  Python Plots: Deaths vs Mobility<br /><br />
+  ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Data_Visualization/Deaths_vs_Mobility_python.png)<br /><br />
   
 ### 4. Automated script to send Data to slack:
-  find the script in QureAI_Assignment\Slack_Integration for test perposes the schedule time is set to 5 minites.
-  The scripts sends monthly data in an interval of 5 minutes.<br />
+  find the script in QureAI_Assignment\Slack_Integration for test perposes the schedule time is set to 5 minites.<br />
+  The scripts sends monthly data in an interval of 5 minutes.<br /><br />
 ![Alt text](https://github.com/kanti170102041/QureAI_Assignment/blob/master/Slack_Integration/Slack_data_screenshot.png)
 
